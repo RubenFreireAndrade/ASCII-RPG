@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{8d282168-9af6-4b6c-9f1e-3b73671a24d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{a14fd272-ecd3-4380-bdd3-ae733c446be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlayerStuff">
+      <UniqueIdentifier>{b0fa748b-5a73-4194-beac-4b308c886c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PlayerStuff">
+      <UniqueIdentifier>{6bd3dd68-ce70-4295-b31a-06a69b5455bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\LocationStates">
+      <UniqueIdentifier>{0e36a9b4-f4a3-4652-a5e1-83a489283d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States\LocationStates">
+      <UniqueIdentifier>{691d7605-b78a-44a2-b59a-3849dc8f9745}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoopManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\PlayerStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSelector.cpp">
+      <Filter>Source Files\PlayerStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="CaveState.cpp">
+      <Filter>Source Files\States\LocationStates</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonState.cpp">
+      <Filter>Source Files\States\LocationStates</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldState.cpp">
+      <Filter>Source Files\States\LocationStates</Filter>
+    </ClCompile>
+    <ClCompile Include="ForestState.cpp">
+      <Filter>Source Files\States\LocationStates</Filter>
+    </ClCompile>
+    <ClCompile Include="VillageState.cpp">
+      <Filter>Source Files\States\LocationStates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLoopManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\PlayerStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSelector.h">
+      <Filter>Header Files\PlayerStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="CaveState.h">
+      <Filter>Header Files\States\LocationStates</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonState.h">
+      <Filter>Header Files\States\LocationStates</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldState.h">
+      <Filter>Header Files\States\LocationStates</Filter>
+    </ClInclude>
+    <ClInclude Include="ForestState.h">
+      <Filter>Header Files\States\LocationStates</Filter>
+    </ClInclude>
+    <ClInclude Include="VillageState.h">
+      <Filter>Header Files\States\LocationStates</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="mapField.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
